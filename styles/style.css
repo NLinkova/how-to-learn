@@ -48,6 +48,7 @@
 
 .header__link {
   text-decoration: none;
+  color: #2f80ed;;
 }
 
 .header__main-illustration {
@@ -70,18 +71,13 @@
   z-index: 0;
 }
 
-
 .description {
   height: 100%;
   width: 100%;
- }
-
-.flex-column {
-  display: flex;
 }
 
-
 .two-columns {
+  display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 100px auto 100px;
@@ -89,11 +85,11 @@
 }
 
 .two-columns__brief {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
   min-width: 175px;
   color: #2f80ed;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 1.2;
   align-self: start;
 }
 
@@ -108,32 +104,39 @@
 .two-columns__paragraph {
   margin-top: 0px;
   margin-bottom: 0px;
-
 }
+
 .two-columns__paragraph_space {
   margin: 30px 0;
 }
+
 .two-columns__span-accent {
   font-weight: bold;
 }
 
 .digits {
-  margin: 0 auto;
+  margin: 0 auto 100px;
 }
 
-.section-title {
+h3 {
   font-size: 60px;
   font-weight: bold;
   line-height: 1.15;
+}
+
+.section-title {
   margin: 100px 0 20px;
   min-width: 60%;
   text-align: center;
 }
 
-.section-subtitle {
+h5 {
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
+}
+
+.section-subtitle {
   min-width: 60%;
   text-align: center;
 }
@@ -141,7 +144,7 @@
 .table {
   display: flex;
   width: 1100px;
-  margin: 0 auto 100px;
+  margin: 0 auto 0;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -149,18 +152,20 @@
 .table__cell {
   width: 250px;
   margin: 60px 0 0;
-
-
 }
 
 ul {
   list-style: none;
   padding: 0;
 }
-.table__heading {
+
+h6 {
   font-size: 24px;
   font-weight: bold;
   line-height: 1.15;
+}
+
+.table__heading {
   margin: 0;
 }
 
@@ -170,8 +175,58 @@ ul {
   line-height: 1.2;
   text-align: left;
   margin: 20px 0;
-
 }
+
+.feynman {
+  background-color: #f2f2f2;
+  height: 890px;
+  background-image: url(../images/feynman.png);
+  background-size: 867px 637px;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  position: relative;
+}
+
+h2 {
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 1.15;
+}
+
+.feynman__title {
+  text-align: center;
+  width: 648px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+h4 {
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  text-align: center;
+}
+
+.feynman__subtitle {
+  margin: 70px auto auto;
+}
+
+.feynman__link {
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  position: absolute;
+  right: 48px;
+  top: 50%;
+}
+
+.feynman__link_color {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
