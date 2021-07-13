@@ -7,4 +7,11 @@
   position: absolute;
   right: 48px;
   top: 50%;
+  transition: opacity 0.2s linear;
+  opacity: 1;
 }
+
+.feynman__link:hover {
+  opacity: 0.5;
+}
+

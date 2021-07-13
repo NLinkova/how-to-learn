@@ -2,10 +2,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.two-columns__paragraph:first-child {
+.two-columns__paragraph:nth-of-type(2n){
   margin-bottom: 30px;
-}
-
-.two-columns__paragraph:last-child {
   margin-top: 30px;
 }
