@@ -2,7 +2,6 @@
   margin: 80px auto 217px auto;
   min-width: 110px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-content: space-between;
 }
