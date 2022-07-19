@@ -2,11 +2,11 @@
 
 ### Description
 
-This is my second site. The content of the site contains information about different approaches to learning.
+One page website. The content of the site contains information about different approaches to learning.
 
 ### Functionality
 
-The site implements such functions as block positioning, smooth transitions, animation, video, links, etc.
+The site implements such features as block positioning, smooth transitions, animation, video, links, BEM methodology css, etc.
 
 ### Link
 
